@@ -1,0 +1,387 @@
+/* Main */
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 4% 8% 4% 8%;
+}
+
+#Text{
+    width: 70%;
+    margin: 0% 5% 0% 5%;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#Logo{
+    width: 30%;
+}
+
+#Logo img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+#titre_principal{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.175);
+    letter-spacing: 0.075em;
+    margin: 0 8% 0 8%;
+    color: antiquewhite;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+nav ul.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+nav ul.links li{
+    margin-right: 2em;
+    width: 120px;
+}
+
+nav ul.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+nav ul.icons li{
+    margin-right: 3em;
+    width: 50px;
+}
+
+nav a{
+    justify-content: flex-start;
+}
+
+/* Main */
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 8% 0 8%;
+    background-color: rgba(255, 228, 196, 0.3);
+}
+
+#recap{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 219, 219);
+    
+}
+
+#title_recap{
+    font-family: Calibri;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 2% 2% 2% 1%;
+}
+
+.container{
+    display: flex;
+    width: 40%;
+    background-color: white;
+}
+
+.input_img{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.container img, .input_img img, .input_img a{
+    width: 100%;
+}
+
+.RIGHT_PIC{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgba(255, 228, 196, 0.175);
+}
+
+#presentation{
+    margin: 3% 5% 3% 5%;
+    width: 60%;
+    text-align: justify;
+}
+
+ul.liste{
+    margin-left: 4%;
+    list-style: circle inside;
+}
+
+article{
+    width: 100%;
+    margin: 5% 10% 5% 10%;
+}
+
+.left_text{
+    margin: 0% 5% 1% 5%;
+    width: 60%;
+}
+
+.right_text{
+    margin: 0% 5% 1% 5%;
+    width: 60%;
+}
+
+/* Page mon_cv.html */
+#page{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 8% 0% 8%;
+}
+
+#side{
+    width: 15%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(119, 115, 115, 0.123);
+}
+
+#side article{
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.container.profil{
+    padding: 5%;
+    width: auto;
+    background:none;
+    justify-content: center;
+}
+
+img{
+    width: auto;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container.profil img{
+    width: 100%;
+    border: 2px solid #DBDBDB;
+    border-radius: 30px;
+}
+
+#main{
+    width: 85%;
+    flex-direction: column;
+    margin: 0%;
+    background-color: rgb(219, 219, 219);
+}
+
+#name_qualities{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    margin-left: 5%;
+    width: 50%;
+    font-weight: bold;
+    font-family: "Calibri", "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 3em;
+    color: rgb(190, 103, 7);
+}
+
+.prenom{
+    color: rgb(238, 131, 23);
+}
+
+#qualities{
+    text-align: right;
+    margin-right: 5%;
+    width: 50%;
+    font-weight: bold;
+    font-family: "Corbel", "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(238, 131, 23);
+}
+
+#title{
+    margin: 0%;
+    background-color: rgba(13, 70, 113);
+    text-align: center;  
+}
+
+.titre{
+    margin: 0%;
+    background-color: rgba(10, 157, 214);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.text_titre{
+    margin: 1% 0% 1% 0%;
+    font-family: Calibri;
+}
+
+.corp_experience, .corp_competence, .corp_formation{
+    margin: 0%;
+    color: #403E3F;
+    width: 100%;
+}
+
+.corp_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.corp_2{
+    width: 50%;
+    margin: 0% 3% 0% 3%;
+    overflow: auto;
+}
+
+.corp_competence.corp_2{
+    width: 33%;
+    overflow: auto;
+}
+
+.corp_formation.corp_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: auto;
+    width: auto;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 8% 0 8%;
+    background-color: rgba(255, 228, 196, 0.05);
+}
+
+.phone, .mail, .social{
+    flex-direction: column;
+    align-items: center;
+    width: 33.33333%;
+    margin: 0;
+}
+
+.content{
+    margin: 10%;
+    text-align: center;
+}
+
+.bricolage{
+    flex-direction: column;
+}
+
+.bricolage h2{
+    text-align: center;
+}
+
+.bricolage .illustrations{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 5% 5% 5%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.illustrations img{
+    width : 20%;
+    margin : auto;
+}
+
+.illustrations video{
+    margin : auto;
+}
+
+.bricolage p{
+    margin: 0% 5% 0% 5%;
+}
+
+#emoji{
+    font-size: 200px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    overflow: auto;
+}
+
+/* Balises Communes */
+h1{
+    font-family: Calibri;
+    font-size: 3em;
+}
+
+h2{
+    font-family: Calibri;
+    font-size: 2.2em;
+}
+
+h3{
+    font-family: Calibri;
+}
+
+h4{
+    font-family: Calibri;
+    font-size: 1.2em;
+    text-decoration: underline;
+    margin-bottom: 1%;
+}
+
+a{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#side a{
+    word-break: break-all;
+}
+
+p{
+    font-family: Calibri;
+    text-align: justify;
+}
+
+ul{
+    font-family: Calibri;
+}
+

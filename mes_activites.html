@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tesseidre Corentin Web Site</title>
+</head>
+
+<body>
+    <div id="main_wrapper">
+
+        <!-- Header -->
+        <header>
+            <div id="Text">
+                <h1 id="titre_principal">
+                    Bienvenue sur mon site <br> internet !
+                </h1>
+            </div>
+            <div id="Logo">
+                <img src="images/logo.PNG" alt="Mon logo" />
+            </div>
+        </header>
+
+        <!-- Nav -->
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Présentation</a></li>
+                <li><a href="mon_parcours.html">Mon Parcours</a></li>
+                <li><a href="mes_activites.html">Mes Activités</a></li>
+                <li><a href="mon_cv.html">Mon CV</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/corentin-tesseidre-2a6765172/"
+                        class="icon linkedin">Linkedin</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <section class="LEFT_PIC">
+            <div class="container">
+                <img src="images/surf.jpg" alt="Photo du surf" />
+            </div>
+
+            <!-- Surf -->
+            <article class="right_text">
+                <h2>Surf</h2>
+                <p>
+                    Depuis 2 ans, nous allons régulièrement surfer entre amis sur les plages de l’Atlantique. Cela
+                    permet de se retrouver, se défouler et aussi profiter des paysages qui sont souvent magnifiques.
+                    Nous sommes encore débutants mais nous avons l’objectif de progresser petit à petit pour un jour,
+                    prendre une vague qui nous passe par-dessus la tête (sans être sous l'eau ...).
+                </p>
+            </article>
+        </section>
+
+        <!-- Rugby -->
+        <section class="RIGHT_PIC">
+            <span id="emoji">&#127944;</span>
+
+            <article class="left_text">
+                <h2>Rugby</h2>
+                <p>
+                    Pendant 2 ans, j’ai pratiqué le rugby dans le club de l’entente des graves. Je jouais au poste de
+                    deuxième centre ou ailier en fonction des matchs. C’est un sport que j’adore car il sollicite autant
+                    la tactique que le physique et les amis que l’on se fait le reste souvent longtemps.
+                </p>
+            </article>
+        </section>
+
+        <!-- Bricolage -->
+        <section class="bricolage">
+            <h2>Bricolage</h2>
+
+            <!-- Restau chat -->
+            <div class="illustrations">
+                <video width=15% height=auto controls>
+                    <source src="images/IMG_2253.mp4" type=video/mp4>
+                </video>
+                <img src="images/restau_chat.jpg" alt="Photo du restau_chat" />
+            </div>
+            <p>L’un de mes premiers projet d’électronique personnel a consisté en la création d’un « restau chat ». Il s’agit d’une
+                gamelle pour chat automatisée qui distribue la nourriture deux fois par jour à heure constante. </p>
+            <p>J’ai tout d’abord envisagé la conception du circuit électronique. La pièce centrale du circuit est un microcontrôleur
+                qui commande un servo-moteur permettant à la dalle qui soutient la nourriture de se retirer puis de se replacer.
+                Pour effectuer cette tâche deux fois par jours à une heure constante, le microcontrôleur est connecté à une « Real
+                Time Clock » qui délivre l’heure en temps réel.</p>
+            <p>Pour ce qui est de la carrosserie du « restau chat », j’ai dans un premier temps conçu le model en 3D sur Fusion360
+                avant de couper les planches de bois et d’imprimer les pièces 3D.</p>
+
+            <!-- Impressions 3D -->
+            <div class="illustrations">
+                <img src="images/boitier.png" alt="Boitier Thales" />
+                <img src="images/boitier_basys1.JPEG" alt="Boitier Basys 1" />
+                <img src="images/boitier_basys2.JPEG" alt="Boitier Basys 2" />
+                <img src="images/pot_crayon.JPG" alt="Pot à crayon" />
+                <img src="images/impression_lumieres.PNG" alt="Support de lumière de bureau" />
+            </div>
+            <p>L’impression 3D permet de donner vie à des idées et de résoudre des petits problèmes du quotidien. J’ai réalisé
+                quelques boitiers pour protéger des cartes électroniques, cela m’a aussi beaucoup servi pour la réalisation du «
+                restau chat », la création d’une lumière de bureau ou encore des objets utiles pour la maison.</p>
+
+            <!-- Electronique -->
+            <div class="illustrations">
+                <img src="images/enceinte.JPEG" alt="Réparation enceinte 1" />
+                <video width=15% height=auto controls>
+                    <source src="images/space__invaders.mp4" type=video/mp4>
+                </video>
+                <img src="images/enceinte1.PNG" alt="Réparation enceinte 2" />
+            </div>
+            <p>J’aussi réalisé quelques projets d’électronique comme l’implémentation du jeu « space invaders » sur FPGA (Artix7 sur
+                carte d’évaluation NexysA7 50T) et la réparation d’une enceinte JBL qui ne fonctionnait plus.</p>
+
+            <!-- Travaiil du bois -->
+            <div class="illustrations">
+                <img src="images/lumiere.jpg" alt="Lumière de bureau" />
+                <img src="images/bobine_cms.JPG" alt="Dérouleur CMS" />
+                <img src="images/echelle.JPG" alt="Echelle poule" />
+                <img src="images/echelle1.JPG" alt="Echelle poule 1" />
+            </div>
+            <p>J’aime aussi de temps en temps travailler le bois comme illustré ci-dessus avec la réalisation d’un éclairage de
+                bureau, la création d’un dérouleur de bobines CMS ou encore une échelle pour poulailler.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <section class="phone">
+                <div class="content">
+                    <h3>Phone</h3>
+                    <p>+33652860942</p>
+                </div>
+            </section>
+
+            <section class="mail">
+                <div class="content">
+                    <h3>Email</h3>
+                    <p><a href="mailto:corentin.tesseidre@gmail.com">corentin.tesseidre@gmail.com</a></p>
+                </div>
+            </section>
+
+            <section class="social">
+                <div class="content">
+                    <h3>Social</h3>
+                    <div>
+                        <a href="https://www.linkedin.com/in/corentin-tesseidre-2a6765172/"
+                            class="icon linkedin">Linkedin<br></a>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

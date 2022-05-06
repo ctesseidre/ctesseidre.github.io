@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tesseidre Corentin Web Site</title>
+</head>
+
+<body>
+    <div id="main_wrapper">
+
+        <!-- Header -->
+        <header>
+            <div id="Text">
+                <h1 id="titre_principal">
+                    Bienvenue sur mon site <br> internet !
+                </h1>
+            </div>
+            <div id="Logo">
+                <img src="images/logo.PNG" alt="Mon logo" />
+            </div>
+        </header>
+
+        <!-- Nav -->
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Présentation</a></li>
+                <li><a href="mon_parcours.html">Mon Parcours</a></li>
+                <li><a href="mes_activites.html">Mes Activités</a></li>
+                <li><a href="mon_cv.html">Mon CV</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/corentin-tesseidre-2a6765172/"
+                        class="icon linkedin">Linkedin</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <!-- Recap -->
+        <section id="recap">
+            <div id="title_recap">Petit récapitulatif de ces dernières années :</div>
+            <div class="input_img">
+                <a href="images/parcours.PNG"><img src="images/parcours.PNG" alt="Mon parcours scolaire" /></a>
+            </div>
+        </section>
+
+        <!-- Thales : img + Text -->
+        <section class="LEFT_PIC">
+            <div class="container">
+                <img src="images/thales_logo.png" alt="Logo Thales" />
+            </div>
+
+            <article class="right_text">
+                <h2>THALES</h2>
+                <p>
+                    En 2019, j'intègre une équipe FPGA/HW sur le site THALES de Mérignac pour une durée de 3 ans.
+                </p>
+                <p>
+                    Mon projet principal a été de réaliser l'architecture FPGA d'un enregistreur de vol. Lors de ce
+                    projet, j’ai beaucoup appris sur 2 aspects principaux :
+                </p>
+                <p>
+                    Aspect technique :
+                </p>
+                <ul class="liste">
+                    <li>Design VHDL</li>
+                    <li>Zynq UltraScale+ MPSoC / Carte d’évaluation ZCU102</li>
+                    <li>Vivado / Block Design / IP Packaging</li>
+                    <li>PINOUT Constraints, Timing Constraints</li>
+                    <li>Questasim / Simulation Scripts / Code Coverage</li>
+                    <li>UBOOT</li>
+                </ul>
+                <p>
+                    Aspect déroulement de projet :
+                </p>
+                <ul class="liste">
+                    <li>Définition/Rédaction d’une spécification</li>
+                    <li>Conception d’Architecture</li>
+                    <li>Procédures de vérification</li>
+                </ul>
+                <p>
+                    J’ai aussi travaillé pendant ma première année avec l'équipe de vérification pour s’assurer du bon
+                    fonctionnement d’un FPGA réseau conformément à la norme DO-254. Cette norme permet d'assurer un
+                    niveau de fiabilité élevé du produit pour répondre à la criticité du monde aéronautique.
+                </p>
+                <p>
+                    Lors de cette première année j’ai travaillé sur une cible FPGA Microsemi Polarfire et donc sur le
+                    logiciel Libero, j’ai manipulé des outils de simulation comme modelsim/questasim, synplify PRO, des
+                    outils de vérification physique et j’ai créé des moyens de test comme par exemple une carte Arduino
+                    chargée d’envoyer des données selon le protocole USART pour vérifier le décodage d’une liaison série
+                    du FPGA.
+                </p>
+            </article>
+        </section>
+
+        <!-- Scrime : Logo + Texte + Architecture -->
+        <section class="RIGHT_PIC">
+            <div class="container">
+                <img src="images/logo_scrime.png" alt="Photo scrime" />
+            </div>
+
+            <article class="left_text">
+                <h2>SCRIME</h2>
+                <p>
+                    Pendant l’année 2021/2022, en parallèle de nos études et de notre travail en entreprise, nous avons
+                    travaillé avec un groupe d’amis pour le SCRIME. Le SCRIME est un Groupement d’Intérêt Scientifique
+                    et Artistique (GIS) administré par le Laboratoire Bordelais de Recherche en Informatique (LaBRI).
+                </p>
+                <p>
+                    Notre but était de concevoir une architecture et de réaliser une carte électronique permettant de
+                    brancher 64 enceintes en série. Chaque enceinte devait pouvoir émettre une donnée différente au même
+                    moment. Cela permet ainsi la spacialisation du son (action de créer l'illusion de la localisation
+                    d'un son).
+                </p>
+                <div class="input_img">
+                    <a href="images/system_scrime.PNG"><img src="images/system_scrime.PNG"
+                            alt="architecture du systeme SCRIME" /></a>
+                </div>
+                <p>
+                    Pour cela, nous avons opté pour la solution ci-dessus. Cela nous a permis de manipuler des
+                    transceivers optiques, des signaux différentiels, la cible FPGA Artix-7, des DAC et le protocole
+                    MADI.
+                </p>
+            </article>
+        </section>
+
+        <!-- ENSEIRB : Logo + Text -->
+        <section class="LEFT_PIC">
+            <div class="container">
+                <img src="images/Logo_ENSEIRB-MATMECA.png" alt="Photo ENSEIRB" />
+            </div>
+
+            <article class="right_text">
+                <h2>ENSEIRB-MATMECA</h2>
+                <p>
+                    Pendant 3 ans j’ai étudié à l’ENSEIRB-MATMECA dans la filière Systèmes Electroniques Embarqués. Nous
+                    avons pu y étudier des matières comme :
+                </p>
+                <ul class="liste">
+                    <li>Description Hardware (FPGA, DSP, VHDL, ASICs, conception de µProcesseur avec jeu d'instructions
+                        élémentaires)</li>
+                    <li>Programmation en C (µcontrôleurs, environnement UNIX : Processus, Pipe, Signals)</li>
+                    <li>Programmation Orientée Objet (C++, Python, JAVA)</li>
+                    <li>Système d’exploitations (UNIX, OS temps réel)</li>
+                    <li>Communications Numériques</li>
+                    <li>Traitement du signal et de l’image</li>
+                    <li>Matlab</li>
+                    <li>IA (TensorFlow and Keras)</li>
+                    <li>Electronique Analogique (Schémas, AOP, PLL …)</li>
+                </ul>
+                <p>
+                    Pour la découverte de chacune de ces matières, des projets étaient proposés. Nous avons par exemple
+                    réalisé une chaîne de communication ADSB en Communication Numérique pour connaitre la position
+                    exacte des avions dans les airs. Nous avons aussi réalisé le jeu Space Invader en VHDL avec une
+                    application graphique (VGA). Pour découvrir le monde des DSP sur FPGA nous avons conçu un multiplieur
+                    matriciel. Pour la programmation en C nous avons créé une messagerie pour apprendre les processus, les tubes et les signaux.
+                </p>
+            </article>
+        </section>
+
+        <!-- CEMES - CNRS : Logo + Text -->
+        <section class="RIGHT_PIC">
+            <div class="container">
+                <img src="images/cnrs_cemes.jpg" alt="Photo CEMES" />
+            </div>
+
+            <article class="left_text">
+                <h2>CEMES - CNRS</h2>
+                <p>
+                    La mission qui m'a été confiée dans le cadre de mon stage d'IUT était de réaliser un générateur de
+                    pulses de l'ordre de la nano seconde. J’avais à disposition pendant ces trois mois une carte
+                    d'évaluation (ZedBoard) avec un SoC ZYNQ-7000 et un oscilloscope permettant de réaliser des mesures
+                    à hautes fréquences.
+                </p>
+                <p>
+                    Le design était composé d’une machine à état permettant de fixer un état haut pendant un coup d’horloge, un état bas le
+                    reste du temps et de répéter cela en boucle. J’ai aussi implémenté un code C sur le microcontrôleur de la puce ZYNQ-7000
+                    permettant la configuration du « Duty Cycle » de la pulse générée via une interface Homme - Machine.
+                </p>
+                <p>
+                    L’intégration s’est bien passée pour des fréquences de 100 et 200 Mhz mais a échoué pour des fréquences d’horloges
+                    supérieures. J’ai appris plus tard qu’une fréquence de 300 Mhz est considérée comme élevée pour une FPGA et que
+                    d’implémenter une horloge à 1Ghz était très compliqué. Je ne connaissais pas non plus l’existence des contraintes de
+                    timing à cette époque ce qui m’aurait été utile.
+                </p>
+            </article>
+        </section>
+
+        <!-- Planète végétale : Logo + Text -->
+        <section class="LEFT_PIC">
+            <div class="container">
+                <img src="images/planete-vegetale-logo.png" alt="Photo Planete Vegetale" />
+            </div>
+
+            <article class="right_text">
+                <h2>Planète végétale</h2>
+                <p>
+                    A l’âge de mes 18 et 19 ans, j’ai travaillé 1 mois pendant mes vacances d’été dans une entreprise
+                    agricole nommée Planète Végétale. J’y étais technicien de maintenance et mon objectif était
+                    d’intervenir lors de pannes de machines pour les réparer.
+                </p>
+                <p>
+                    Ce travail d’été était une expérience très enrichissante car j’y ai appris à travailler le métal, à
+                    souder à l’arc, à comprendre toute la chaîne de traitement des légumes, depuis leur lavage jusqu’à
+                    leur ensachement. J’ai aussi pu analyser le mécanisme de chaque machine et apprendre à les réparer.
+                </p>
+            </article>
+        </section>
+
+        <!-- GEII : Logo + Text -->
+        <section class="RIGHT_PIC">
+            <div class="container">
+                <img src="images/tlse.jpg" alt="Photo geii" />
+            </div>
+
+            <article class="left_text">
+                <h2>IUT GEII</h2>
+                <p>
+                    C’est lors des deux années d’études à l’IUT GEII de Toulouse que je me suis passionné pour
+                    l’informatique et l’électronique.
+                </p>
+                <p>
+                    En effet, en plus des cours théoriques, nous avons eu l’occasion de réaliser un grand nombre de
+                    projets comme un système d’alarme pour la protection d’une maison, un système de contrôle pour
+                    l’aiguillage de trains ainsi que le contrôle de feux de carrefour. Ces projets ont été réalisés en
+                    VHDL mais j’ai aussi mené à bien des projets en C comme l’automatisation d’une machine de tri. Nous
+                    avons également développé des connaissances en électronique orientée carte, grâce à la réalisation
+                    d’un radar de recul et d’un électrocardiographe en analogique seulement.
+                </p>
+            </article>
+        </section>
+
+        <!-- Lycée : Logo + Text -->
+        <section class="LEFT_PIC">
+            <div class="container">
+                <img src="images/image_info.jpg" alt="Photo ISN" />
+            </div>
+
+            <article class="right_text">
+                <h2>Lycée général des Graves</h2>
+                <p>
+                    Le Lycée m’a permis de découvrir le monde du numérique grâce à l’option : Informatique et Sciences
+                    du Numérique (ISN). C’est pendant cette période que j’ai réalisé mon premier projet qui était de
+                    crypter un fichier texte en manipulant les codes ASCII du fichier.
+                </p>
+            </article>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <section class="phone">
+                <div class="content">
+                    <h3>Phone</h3>
+                    <p>+33652860942</p>
+                </div>
+            </section>
+
+            <section class="mail">
+                <div class="content">
+                    <h3>Email</h3>
+                    <p><a href="mailto:corentin.tesseidre@gmail.com">corentin.tesseidre@gmail.com</a></p>
+                </div>
+            </section>
+
+            <section class="social">
+                <div class="content">
+                    <h3>Social</h3>
+                    <div>
+                        <a href="https://www.linkedin.com/in/corentin-tesseidre-2a6765172/"
+                            class="icon linkedin">Linkedin<br></a>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
